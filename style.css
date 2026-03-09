@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Aboreto');
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+
+body {
+    font-family: 'Alegreya', serif; 
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+}
+
+/* NAVIGATION */
+.nav-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-spacing: 20px;
+}
+
+.nav-button {
+    font-family: 'Aboreto', cursive; 
+    font-size: 22px;
+    text-decoration: none !important;
+    border: 2px solid #767676 !important;
+    display: inline-block !important;
+    padding: 10px 20px !important;
+    background-color: #efefef !important;
+    color: black !important;
+    border-radius: 4px;
+}
+
+/* TEXT */
+h1, p { text-align: center; }
+h1 {
+    font-family: 'Aboreto', cursive;
+    background-color: #e8e6de;
+    font-size: 50px;
+    padding: 20px;
+}
+p {
+    background-color: lightgrey;
+    padding: 15px;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* GALLERY (Photo & Design Pages) */
+.image-gallery {
+    margin: 30px auto;
+}
+.image-gallery td {
+    border: 2px solid #767676; 
+    background-color: #efefef; 
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+.image-gallery img {
+    display: inline-block;
+    height: 500px; 
+    width: auto;   
+    margin: 0 10px;
+}
+
+/* HOME PAGE PORTRAIT */
+.main-portrait {
+    display: block;
+    margin: 40px auto;
+    height: 400px;
+    width: auto;
+}
